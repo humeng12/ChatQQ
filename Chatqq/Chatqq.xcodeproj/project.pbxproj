@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		6B5390721DED3BA6003B7BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390711DED3BA6003B7BB5 /* main.m */; };
 		6B53907B1DED3BA6003B7BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5390791DED3BA6003B7BB5 /* Main.storyboard */; };
-		6B53907D1DED3BA6003B7BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B53907C1DED3BA6003B7BB5 /* Assets.xcassets */; };
 		6B5390801DED3BA6003B7BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B53907E1DED3BA6003B7BB5 /* LaunchScreen.storyboard */; };
 		6B53908B1DED3BA6003B7BB5 /* ChatqqTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B53908A1DED3BA6003B7BB5 /* ChatqqTests.m */; };
 		6B5390961DED3BA6003B7BB5 /* ChatqqUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390951DED3BA6003B7BB5 /* ChatqqUITests.m */; };
-		6B5390AA1DED3C02003B7BB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390A91DED3C02003B7BB5 /* ViewController.m */; };
 		6B5390AD1DED3C09003B7BB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390AC1DED3C09003B7BB5 /* AppDelegate.m */; };
+		6B5390B01DED3F9A003B7BB5 /* autoreply.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B5390AE1DED3F9A003B7BB5 /* autoreply.plist */; };
+		6B5390B11DED3F9A003B7BB5 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B5390AF1DED3F9A003B7BB5 /* messages.plist */; };
+		6B5390B31DED40CD003B7BB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5390B21DED40CD003B7BB5 /* Images.xcassets */; };
+		6B5390B61DED50D6003B7BB5 /* HMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390B51DED50D6003B7BB5 /* HMMessage.m */; };
+		6B5390B91DED50E5003B7BB5 /* HMMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390B81DED50E5003B7BB5 /* HMMessageFrame.m */; };
+		6B5390BD1DED5993003B7BB5 /* HMMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390BC1DED5993003B7BB5 /* HMMessageCell.m */; };
+		6B5390C31DED5AA7003B7BB5 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390C01DED5AA7003B7BB5 /* NSString+Extension.m */; };
+		6B5390C41DED5AA7003B7BB5 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390C21DED5AA7003B7BB5 /* UIImage+Extension.m */; };
+		6B5390C71DED5DB0003B7BB5 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5390C61DED5DB0003B7BB5 /* HMViewController.m */; };
+		6BBF35151DED634A00363914 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35141DED634A00363914 /* MJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		6B53906D1DED3BA6003B7BB5 /* Chatqq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatqq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5390711DED3BA6003B7BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B53907A1DED3BA6003B7BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B53907C1DED3BA6003B7BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B53907F1DED3BA6003B7BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B5390811DED3BA6003B7BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B5390861DED3BA6003B7BB5 /* ChatqqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatqqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,10 +54,26 @@
 		6B5390911DED3BA6003B7BB5 /* ChatqqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatqqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5390951DED3BA6003B7BB5 /* ChatqqUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatqqUITests.m; sourceTree = "<group>"; };
 		6B5390971DED3BA6003B7BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B5390A81DED3C02003B7BB5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B5390A91DED3C02003B7BB5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B5390AB1DED3C09003B7BB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B5390AC1DED3C09003B7BB5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B5390AE1DED3F9A003B7BB5 /* autoreply.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = autoreply.plist; sourceTree = "<group>"; };
+		6B5390AF1DED3F9A003B7BB5 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		6B5390B21DED40CD003B7BB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B5390B41DED50D6003B7BB5 /* HMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessage.h; sourceTree = "<group>"; };
+		6B5390B51DED50D6003B7BB5 /* HMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessage.m; sourceTree = "<group>"; };
+		6B5390B71DED50E5003B7BB5 /* HMMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessageFrame.h; sourceTree = "<group>"; };
+		6B5390B81DED50E5003B7BB5 /* HMMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessageFrame.m; sourceTree = "<group>"; };
+		6B5390BA1DED51AE003B7BB5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6B5390BB1DED5993003B7BB5 /* HMMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessageCell.h; sourceTree = "<group>"; };
+		6B5390BC1DED5993003B7BB5 /* HMMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessageCell.m; sourceTree = "<group>"; };
+		6B5390BF1DED5AA7003B7BB5 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		6B5390C01DED5AA7003B7BB5 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		6B5390C11DED5AA7003B7BB5 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		6B5390C21DED5AA7003B7BB5 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		6B5390C51DED5DB0003B7BB5 /* HMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		6B5390C61DED5DB0003B7BB5 /* HMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		6BBF35131DED634A00363914 /* MJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		6BBF35141DED634A00363914 /* MJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +126,9 @@
 			children = (
 				6B5390A31DED3BD1003B7BB5 /* Classes */,
 				6B5390791DED3BA6003B7BB5 /* Main.storyboard */,
-				6B53907C1DED3BA6003B7BB5 /* Assets.xcassets */,
 				6B53907E1DED3BA6003B7BB5 /* LaunchScreen.storyboard */,
 				6B5390811DED3BA6003B7BB5 /* Info.plist */,
+				6B5390B21DED40CD003B7BB5 /* Images.xcassets */,
 				6B5390701DED3BA6003B7BB5 /* Supporting Files */,
 			);
 			path = Chatqq;
@@ -114,7 +137,10 @@
 		6B5390701DED3BA6003B7BB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6B5390AE1DED3F9A003B7BB5 /* autoreply.plist */,
+				6B5390AF1DED3F9A003B7BB5 /* messages.plist */,
 				6B5390711DED3BA6003B7BB5 /* main.m */,
+				6B5390BA1DED51AE003B7BB5 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +166,7 @@
 		6B5390A31DED3BD1003B7BB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6B5390BE1DED5AA7003B7BB5 /* Category */,
 				6B5390A41DED3BD1003B7BB5 /* Controller */,
 				6B5390A51DED3BD1003B7BB5 /* Model */,
 				6B5390A71DED3BD1003B7BB5 /* View */,
@@ -151,8 +178,10 @@
 		6B5390A41DED3BD1003B7BB5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6B5390A81DED3C02003B7BB5 /* ViewController.h */,
-				6B5390A91DED3C02003B7BB5 /* ViewController.m */,
+				6BBF35131DED634A00363914 /* MJViewController.h */,
+				6BBF35141DED634A00363914 /* MJViewController.m */,
+				6B5390C51DED5DB0003B7BB5 /* HMViewController.h */,
+				6B5390C61DED5DB0003B7BB5 /* HMViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +189,10 @@
 		6B5390A51DED3BD1003B7BB5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6B5390B41DED50D6003B7BB5 /* HMMessage.h */,
+				6B5390B51DED50D6003B7BB5 /* HMMessage.m */,
+				6B5390B71DED50E5003B7BB5 /* HMMessageFrame.h */,
+				6B5390B81DED50E5003B7BB5 /* HMMessageFrame.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,8 +209,21 @@
 		6B5390A71DED3BD1003B7BB5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6B5390BB1DED5993003B7BB5 /* HMMessageCell.h */,
+				6B5390BC1DED5993003B7BB5 /* HMMessageCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6B5390BE1DED5AA7003B7BB5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6B5390BF1DED5AA7003B7BB5 /* NSString+Extension.h */,
+				6B5390C01DED5AA7003B7BB5 /* NSString+Extension.m */,
+				6B5390C11DED5AA7003B7BB5 /* UIImage+Extension.h */,
+				6B5390C21DED5AA7003B7BB5 /* UIImage+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +334,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5390801DED3BA6003B7BB5 /* LaunchScreen.storyboard in Resources */,
-				6B53907D1DED3BA6003B7BB5 /* Assets.xcassets in Resources */,
+				6B5390B11DED3F9A003B7BB5 /* messages.plist in Resources */,
+				6B5390B31DED40CD003B7BB5 /* Images.xcassets in Resources */,
+				6B5390B01DED3F9A003B7BB5 /* autoreply.plist in Resources */,
 				6B53907B1DED3BA6003B7BB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,9 +362,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B5390AA1DED3C02003B7BB5 /* ViewController.m in Sources */,
+				6B5390B61DED50D6003B7BB5 /* HMMessage.m in Sources */,
+				6B5390BD1DED5993003B7BB5 /* HMMessageCell.m in Sources */,
+				6B5390C71DED5DB0003B7BB5 /* HMViewController.m in Sources */,
 				6B5390721DED3BA6003B7BB5 /* main.m in Sources */,
 				6B5390AD1DED3C09003B7BB5 /* AppDelegate.m in Sources */,
+				6B5390B91DED50E5003B7BB5 /* HMMessageFrame.m in Sources */,
+				6B5390C31DED5AA7003B7BB5 /* NSString+Extension.m in Sources */,
+				6BBF35151DED634A00363914 /* MJViewController.m in Sources */,
+				6B5390C41DED5AA7003B7BB5 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +519,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = 75AXUYD58X;
+				GCC_PREFIX_HEADER = /Users/humeng/Downloads/ChatQQ/Chatqq/Chatqq/PrefixHeader.pch;
 				INFOPLIST_FILE = Chatqq/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -478,7 +534,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = 75AXUYD58X;
+				GCC_PREFIX_HEADER = /Users/humeng/Downloads/ChatQQ/Chatqq/Chatqq/PrefixHeader.pch;
 				INFOPLIST_FILE = Chatqq/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -552,6 +610,7 @@
 				6B53909C1DED3BA6003B7BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B53909D1DED3BA6003B7BB5 /* Build configuration list for PBXNativeTarget "ChatqqTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +619,7 @@
 				6B53909F1DED3BA6003B7BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B5390A01DED3BA6003B7BB5 /* Build configuration list for PBXNativeTarget "ChatqqUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +628,7 @@
 				6B5390A21DED3BA6003B7BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

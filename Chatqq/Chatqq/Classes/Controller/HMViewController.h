@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HMViewController.h
 //  Chatqq
 //
 //  Created by 胡猛 on 2016/11/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HMViewController : UIViewController
 
 @end
-
